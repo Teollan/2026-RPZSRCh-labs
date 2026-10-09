@@ -1,0 +1,12 @@
+services:
+  lab1:
+    build: .
+    image: rpzsrch-lab1
+    container_name: rpzsrch-lab1
+    network_mode: host
+    volumes:
+      - ./ros2_ws/src:/ros2_ws/src
+    working_dir: /ros2_ws
+    stdin_open: true
+    tty: true
+    command: sleep infinity
