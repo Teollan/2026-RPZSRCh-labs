@@ -268,7 +268,7 @@ RCLCPP_COMPONENTS_REGISTER_NODE(lab1::B)
 ```
 
 ```cpp
-// ros2_ws/src/lab1/src/B.component.cpp
+// ros2_ws/src/lab1/src/C.component.cpp
 
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_lifecycle/lifecycle_node.hpp"
