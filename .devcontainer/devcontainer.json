@@ -1,0 +1,33 @@
+{
+  "name": "RPZSRCh (ROS 2 Lyrical)",
+  "dockerComposeFile": "../compose.yaml",
+  "service": "ros",
+  "workspaceFolder": "/RPZSRCh",
+  "shutdownAction": "none",
+  "remoteUser": "root",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ranch-hand-robotics.rde-pack",
+        "twxs.cmake"
+      ],
+      "settings": {
+        "C_Cpp.default.includePath": [
+          "/opt/ros/lyrical/include/**",
+          "${workspaceFolder}/*/ros2_ws/install/**/include/**",
+          "${workspaceFolder}/*/ros2_ws/src/**"
+        ],
+        "C_Cpp.default.compileCommands": [
+          "${workspaceFolder}/lab1/ros2_ws/build/compile_commands.json",
+          "${workspaceFolder}/lab2/ros2_ws/build/compile_commands.json",
+          "${workspaceFolder}/lab3/ros2_ws/build/compile_commands.json"
+        ],
+        "C_Cpp.default.cppStandard": "gnu++20",
+        "C_Cpp.default.cStandard": "gnu17",
+        "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}

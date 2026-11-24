@@ -2,7 +2,7 @@ FROM ros:lyrical
 
 RUN echo 'source /opt/ros/$ROS_DISTRO/setup.bash' >> /root/.bashrc
 
-WORKDIR /ros2_ws
+WORKDIR /RPZSRCh
 
 COPY --chmod=755 entrypoint.sh /entrypoint.sh
 

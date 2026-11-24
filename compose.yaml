@@ -1,0 +1,12 @@
+services:
+  ros:
+    build: .
+    image: rpzsrch
+    container_name: rpzsrch
+    network_mode: host
+    volumes:
+      - .:/RPZSRCh
+    working_dir: /RPZSRCh
+    stdin_open: true
+    tty: true
+    command: sleep infinity
