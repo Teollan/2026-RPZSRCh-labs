@@ -4,6 +4,7 @@ services:
     image: rpzsrch
     container_name: rpzsrch
     network_mode: host
+    init: true
     volumes:
       - .:/RPZSRCh
     working_dir: /RPZSRCh

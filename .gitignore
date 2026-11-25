@@ -12,3 +12,6 @@
 build/
 install/
 log/
+
+# Report title-page template (tools/report/build_report.py)
+!tools/report/*.odt

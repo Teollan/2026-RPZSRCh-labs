@@ -1,0 +1,9 @@
+# Goal
+float64[] numbers
+---
+# Result
+float64[] squares
+---
+# Feedback
+uint32 index          # position of the number just processed
+float64 square        # its square

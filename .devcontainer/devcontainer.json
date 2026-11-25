@@ -4,7 +4,7 @@
   "service": "ros",
   "workspaceFolder": "/RPZSRCh",
   "shutdownAction": "none",
-  "remoteUser": "root",
+  "remoteUser": "ubuntu",
   "customizations": {
     "vscode": {
       "extensions": [
